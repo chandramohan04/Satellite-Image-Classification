@@ -26,4 +26,12 @@ Desktop.ini
 
 # User/Local Datasets (untrack images that shouldn't be on GitHub)
 # Keep only sample images or code
-# dataset/ # Uncomment this if you want to completely ignore the local dataset folder
+dataset/
+
+# Model checkpoints and saved models
+saved_model.pth
+*.pth
+*.pt
+
+# Generated outputs
+outputs/
